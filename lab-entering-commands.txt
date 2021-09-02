@@ -15,6 +15,60 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
+$ ls
+ ansel/
+ AppData/
+'Application Data'@
+ BullseyeCoverageError.txt
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+ fightcade.log
+ fightcade-debug.log
+ ggpofba-ng.bkp.ini
+ ggpo-ng.ini
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NetHood@
+ ntuser.dat
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.0.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.1.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.2.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.blf
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TM.blf
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TM.blf
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TM.blf
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ source/
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
 ----------
 Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 
@@ -25,18 +79,24 @@ Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 $ ls D<TAB>
 
 What happens?  Describe it below.
+The D got capatilzed 
 ----------
 Desktop/    Documents/  Downloads/
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
+$ ls Documents/REAPER\ Media/
 ----------
 rdrgeerwtger yg erwy brg
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
+$ ls Documents/REAPER\ Media/
+ 01-Kick-201227_2249.rpp
+ 01-Kick-201227_2249.rpp-bak
+
 ----------
 
 
@@ -47,7 +107,9 @@ rdrgeerwtger yg erwy brg
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
-----------
+$ ls -l Documents
+total 77
+drwxr-xr-x 1 Tariq 197609   0 Sep  6  2016  Adobe/
 
 
 
@@ -57,6 +119,9 @@ Copy and paste the first *two lines* of output below.
 $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
+$ ls -a Documents
+ ./        'Alienware TactX'/   desktop.ini   GitHub/        'My Videos'@            'REAPER Media'/
+ ../        Assets/             Downloads/   'My Games'/      Processing/            'System Files'/
 ----------
 
 
@@ -67,6 +132,7 @@ Copy and paste the first *two lines* of output below.
 <UP><ENTER>
 
 What command was repeated?
+ls was repeated
 ----------
 
 
@@ -77,6 +143,7 @@ What command was repeated?
 <UP><UP><UP><DOWN><ENTER>
 
 What command was repeated?
+ls -a was repeated
 ----------
 
 
@@ -87,6 +154,16 @@ What command was repeated?
 $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
+it autofilled the next part of the file. 
+
+ls bin
+
+$ ls /bin/
+'[.exe'*                      git-flow-init                   msys-gssapi-3.dll*            seq.exe*
+ addgnupghome*                git-flow-log                    msys-hcrypto-4.dll*           setfacl.exe*
+ applygnupgdefaults*          git-flow-release                msys-heimbase-1.dll*          setmetamode.exe*
+ arch.exe*                    gitflow-shFlags                 msys-heimntlm-0.dll*          sexp-conv.exe*
+ astextplain*                 git-flow-support                msys-hogweed-6.dll*           sftp.exe*
 ----------
 
 
@@ -97,36 +174,43 @@ What is the result of pressing tab?
 $ ls doesnotexist
 
 Copy and paste the output below.
+ls: cannot access 'doesnotexist': No such file or directory
 ----------
 
 
 
 ==========
 9.  What key do I press to go to the previous command?
+UP key
 ----------
 
 
 
 ==========
 10.  Name two flags that we used in this exercise.
+ls -l Documents and ls -a Documents
 ----------
 
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
+TAB key
 ----------
 
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
+ls
 ----------
 
 
 
 ==========
 13.  Name one argument that we passed to the command.
+
+ls Documents
 ----------
 
 
@@ -137,6 +221,8 @@ Copy and paste the output below.
 $ foo<ENTER>
 
 Copy and paste the output below.
+bash: foo: command not found
+
 ----------
 
 
@@ -147,6 +233,8 @@ Copy and paste the output below.
 <UP><ENTER>
 
 Copy and paste the output below.
+$ foo
+bash: foo: command not found
 ----------
 
 
@@ -157,4 +245,8 @@ Copy and paste the output below.
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
+Command: A verb phrase that tells the computer to do something. Ls means List and tells the computer to do so. 
+Flag: It modifies the command. So things like list can be flagged by ls -l <ENTER FILE NAME>. 
+Arguments: Commands to act upon or specfic commands. ls Documents is telling the computer to list out the whole file within the name
+Prompt: Typing in the command. It's after the $ inside of the terminal. So ls is a prompt and many other commands. 
 ----------
