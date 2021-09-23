@@ -13,10 +13,80 @@ Follow the instructions line-by-line.
 
 ==========
 2. Create a directory called mtec1003.
+
+Tariq@Debra MINGW64 ~
+$ mkdir -p mtec1003
+
+Tariq@Debra MINGW64 ~
+$ pwd
+/c/Users/Tariq
+
+Tariq@Debra MINGW64 ~
+$ ls
+ ansel/
+ AppData/
+'Application Data'@
+ BullseyeCoverageError.txt
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+ fightcade.log
+ fightcade-debug.log
+ ggpofba-ng.bkp.ini
+ ggpo-ng.ini
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ meatchicken/
+ mtec1003/
+ Music/
+'My Documents'@
+ NetHood@
+ ntuser.dat
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.0.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.1.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.2.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.blf
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TM.blf
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.0.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.1.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.2.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.blf
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TM.blf
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TM.blf
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ source/
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
 ----------
 
 ==========
 3. Change your directory so that you're in mtec1003.
+cd ~/mtec1003
 ----------
 
 ==========
@@ -29,6 +99,8 @@ Check that the output ends with mtec1002 (something like this: /Users/[yourname]
 If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
+$ pwd
+/c/Users/Tariq/mtec1003
 ----------
 
 
@@ -51,6 +123,13 @@ $ mkdir food
 $ ls
 
 Copy and paste the output below.
+Tariq@Debra MINGW64 ~/mtec1003
+$ mkdir animals
+
+Tariq@Debra MINGW64 ~/mtec1003
+$ ls
+animals/
+
 ----------
 
 
@@ -62,6 +141,14 @@ $ mkdir -p foo/bar/baz/qux
 $ ls
 
 Copy and paste the output below.
+
+Tariq@Debra MINGW64 ~/mtec1003
+$ mkdir -p foo/bar/baz/qux
+
+Tariq@Debra MINGW64 ~/mtec1003
+$ ls
+animals/  foo/
+
 ----------
 
 
@@ -73,6 +160,16 @@ $ cd foo/bar/baz/qux
 $ pwd
 
 Copy and paste the output below.
+
+Tariq@Debra MINGW64 ~/mtec1003
+$ cd foo/bar/baz/qux
+
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar/baz/qux
+$ ls
+
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar/baz/qux
+$ pwd
+/c/Users/Tariq/mtec1003/foo/bar/baz/qux
 ----------
 
 
@@ -85,6 +182,12 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar/baz/qux
+$ cd ../..
+
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar
+$ pwd
+/c/Users/Tariq/mtec1003/foo/bar
 
 
 
@@ -96,6 +199,13 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar
+$ cd -
+/c/Users/Tariq/mtec1003/foo/bar/baz/qux
+
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar/baz/qux
+$ pwd
+/c/Users/Tariq/mtec1003/foo/bar/baz/qux
 
 
  
@@ -108,7 +218,12 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar/baz/qux
+$ cd ../../../..
 
+Tariq@Debra MINGW64 ~/mtec1003
+$ pwd
+/c/Users/Tariq/mtec1003
 
 ==========
 12. Type:
@@ -119,6 +234,19 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
+Tariq@Debra MINGW64 ~/mtec1003
+$ ls -l
+total 0
+drwxr-xr-x 1 Tariq 197609 0 Sep 22 20:11 animals/
+drwxr-xr-x 1 Tariq 197609 0 Sep 22 20:12 foo/
+
+Tariq@Debra MINGW64 ~/mtec1003
+$ rmdir animals
+
+Tariq@Debra MINGW64 ~/mtec1003
+$ ls -l
+total 0
+drwxr-xr-x 1 Tariq 197609 0 Sep 22 20:12 foo/
 
 
 
@@ -130,7 +258,12 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+Tariq@Debra MINGW64 ~/mtec1003
+$ cd ~
 
+Tariq@Debra MINGW64 ~
+$ pwd
+/c/Users/Tariq
 
 
 ==========
@@ -152,7 +285,12 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+$ cd /unknown_folder
+bash: cd: /unknown_folder: No such file or directory
 
+Tariq@Debra MINGW64 ~
+$ pwd
+/c/Users/Tariq
 
 
 ==========
@@ -163,13 +301,20 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+Tariq@Debra MINGW64 ~
+$ cd ~/mtec1003
 
+Tariq@Debra MINGW64 ~/mtec1003
+$ pwd
+/c/Users/Tariq/mtec1003
 
 
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+Tariq@Debra MINGW64 ~/mtec1003
+$ pwd
+/c/Users/Tariq/mtec1003
 
 
 ==========
@@ -192,6 +337,8 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
+Tariq@Debra MINGW64 ~/mtec1003
+$ mkdir -p pineapple/orange/strawbery/lemon
 
 
 
@@ -199,6 +346,7 @@ Use only one command to make all of these new directories.  Write what command y
 18. Make another directory called aardvark.  
 
 Write the command you used to create the directory below:
+$ mkdir -p aardvark
 ----------
 
 
@@ -208,7 +356,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+drwxr-xr-x 1 Tariq 197609 0 Sep 22 20:24 aardvark/
 
 
 ==========
@@ -220,7 +368,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+$ mkdir -p foo/bar/baz
 
 
 ==========
@@ -228,7 +376,24 @@ What command did you use?
 
 What command did you use?
 ----------
+Tariq@Debra MINGW64 ~/mtec1003
+$ cd foo
 
+Tariq@Debra MINGW64 ~/mtec1003/foo
+$ ls
+bar/
+
+Tariq@Debra MINGW64 ~/mtec1003/foo
+$ cd bar
+
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar
+$ ls
+baz/
+
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar
+$ cd baz
+
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar/baz
 
 
 ==========
@@ -236,44 +401,204 @@ What command did you use?
 
 What command did you use?
 ----------
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar
+$ cd baz
+
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar/baz
+$ cd bar
+bash: cd: bar: No such file or directory
+
+Tariq@Debra MINGW64 ~/mtec1003/foo/bar/baz
+$ cd ~
+
+Tariq@Debra MINGW64 ~
+$ foo
+bash: foo: command not found
+
+Tariq@Debra MINGW64 ~
+$ cd ~/mtec1003
+
+Tariq@Debra MINGW64 ~/mtec1003
+$ foo
+bash: foo: command not found
+
+Tariq@Debra MINGW64 ~/mtec1003
+$ cd foo
+
+Tariq@Debra MINGW64 ~/mtec1003/foo
 
 
 ==========
 23. What command is used to delete empty directories?
 ----------
-
+$ rmdir
 
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
-
+$ pwd
 
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
-
+ls -l
 
 
 ==========
 26. What's the shortcut for home directory?
 ----------
-
+ls ~
 
 
 ==========
 27. What's a pathname?
 ----------
-
+The location of the file or path.
 
 
 ==========
 28. What's a directory?
 ----------
-
+It's a folder that is in the filesystem; organzation of files. A folder is a directory. 
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+Tariq@Debra MINGW64 ~/mtec1003
+$ ls ~
+ ansel/
+ AppData/
+'Application Data'@
+ BullseyeCoverageError.txt
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+ fightcade.log
+ fightcade-debug.log
+ ggpofba-ng.bkp.ini
+ ggpo-ng.ini
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ meatchicken/
+ mtec1003/
+ Music/
+'My Documents'@
+ NetHood@
+ ntuser.dat
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.0.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.1.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.2.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.blf
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TM.blf
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.0.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.1.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.2.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.blf
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TM.blf
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TM.blf
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ source/
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
+
+Tariq@Debra MINGW64 ~/mtec1003
+$ cd ../
+
+Tariq@Debra MINGW64 ~
+$ ls
+ ansel/
+ AppData/
+'Application Data'@
+ BullseyeCoverageError.txt
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+ fightcade.log
+ fightcade-debug.log
+ ggpofba-ng.bkp.ini
+ ggpo-ng.ini
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ meatchicken/
+ mtec1003/
+ Music/
+'My Documents'@
+ NetHood@
+ ntuser.dat
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.0.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.1.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.2.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.blf
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TM.blf
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.0.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.1.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.2.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.blf
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TM.blf
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TM.blf
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ source/
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
+Tariq@Debra MINGW64 ~
+$ ls ../../../../../../../../../../..
+bin/  dev/  git-bash.exe*  LICENSE.txt  proc/              tmp/          unins000.exe*  usr/
+cmd/  etc/  git-cmd.exe*   mingw64/     ReleaseNotes.html  unins000.dat  unins000.msg
+
+Tariq@Debra MINGW64 ~
+$ cd ~/Downloads
+
+Tariq@Debra MINGW64 ~/Downloads
